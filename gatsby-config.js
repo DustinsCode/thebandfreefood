@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: ``,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Free Food 🎵`,
+    siteUrl: ``
   },
   plugins: ["gatsby-plugin-sass", {
     resolve: 'gatsby-plugin-google-analytics',
