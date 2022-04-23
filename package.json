@@ -15,9 +15,14 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/cherry-cream-soda": "^4.5.4",
     "gatsby": "^4.11.1",
     "gatsby-plugin-google-analytics": "^4.11.0",
+    "gatsby-plugin-image": "^2.12.1",
     "gatsby-plugin-sass": "^5.11.1",
+    "gatsby-plugin-sharp": "^4.12.1",
+    "gatsby-source-filesystem": "^4.12.1",
+    "gatsby-transformer-sharp": "^4.12.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "sass": "^1.49.11"
