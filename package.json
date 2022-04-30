@@ -15,7 +15,8 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@fontsource/cherry-cream-soda": "^4.5.4",
+    "@fontsource/permanent-marker": "^4.5.5",
+    "@fontsource/saira-condensed": "^4.5.5",
     "gatsby": "^4.11.1",
     "gatsby-plugin-google-analytics": "^4.11.0",
     "gatsby-plugin-image": "^2.12.1",

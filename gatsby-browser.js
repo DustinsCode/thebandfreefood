@@ -1,1 +1,2 @@
-import "@fontsource/cherry-cream-soda"
+import "@fontsource/permanent-marker"
+import "@fontsource/saira-condensed"
