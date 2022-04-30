@@ -1,3 +1,5 @@
+@import 'colors';
+
 $breakpoint-tablet: 768px;
 
 .content {
@@ -9,6 +11,7 @@ $breakpoint-tablet: 768px;
     h1 {
         font-family: 'Permanent Marker';
         font-size: 48px;
+        color: $cta-color;
     }
 }
 
@@ -18,11 +21,11 @@ $breakpoint-tablet: 768px;
 
 @media (min-width: $breakpoint-tablet) {
     .headerImage {
-        max-width: 45%;
+        height: 40%;
+        width: auto;
     }
 
     .content {
         padding-top: 0;
     }
 }
-
