@@ -35,10 +35,16 @@ navbar {
         background-color: $base-color; 
         opacity: .75;
         user-select: none;
+        text-decoration: none;
 
         &:hover {
             opacity: 1;
             cursor: pointer;
+        }
+
+        nav {
+            justify-content: center;
+            align-items: center;
         }
     }
 
