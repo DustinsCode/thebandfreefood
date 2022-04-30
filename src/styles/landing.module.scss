@@ -20,12 +20,27 @@ $breakpoint-tablet: 768px;
 }
 
 @media (min-width: $breakpoint-tablet) {
-    .headerImage {
-        height: 40%;
-        width: auto;
-    }
 
     .content {
+        overflow: hidden;
         padding-top: 0;
+        height: 100vh;
+
+        h1 {
+            position: absolute;
+            bottom: 0.25em;
+            font-size: 10em; 
+            margin: 0;
+            border-radius: 0.3em;
+            border-bottom: .07em solid $cta-color;
+            border-bottom-left-radius: 0;
+        }
+
+        button {
+            display: none;
+        }
+
     }
+
+
 }

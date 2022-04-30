@@ -1,0 +1,46 @@
+@import 'colors';
+
+$breakpoint-tablet: 768px;
+
+navbar {
+    display: none;
+}
+
+@media (min-width: $breakpoint-tablet) {
+
+    navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-self: start;
+        height: auto;
+        width: auto;
+        background-color: transparent;
+    }
+
+    a {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: $cta-color;
+        width: 5.5em;
+        height: 5.5em;
+        border: solid $cta-color;
+        border-radius: 0.5em;
+        margin: 0.8em;
+        background-color: $base-color; 
+        opacity: .75;
+        user-select: none;
+
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+
+
+}

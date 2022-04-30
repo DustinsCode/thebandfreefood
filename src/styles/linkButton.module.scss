@@ -4,7 +4,9 @@ button {
     width: 155px;
     font-size: 20px;
     background-color: $accent-color;
+    padding: 0.25em;
     border: none;
+    border-radius: 0.5em;
     font-family: 'Saira';
 
     &:hover {
