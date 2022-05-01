@@ -17,11 +17,14 @@ $breakpoint-tablet: 768px;
 
 .headerImage {
     width: 100%;
-    position: absolute;
-    top: 0;
 }
 
 @media (min-width: $breakpoint-tablet) {
+
+    .headerImage {
+        position: absolute;
+        top: 0;
+    }
 
     .content {
         overflow: hidden;
