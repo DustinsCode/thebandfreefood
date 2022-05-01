@@ -17,6 +17,8 @@ $breakpoint-tablet: 768px;
 
 .headerImage {
     width: 100%;
+    position: absolute;
+    top: 0;
 }
 
 @media (min-width: $breakpoint-tablet) {
@@ -24,7 +26,7 @@ $breakpoint-tablet: 768px;
     .content {
         overflow: hidden;
         padding-top: 0;
-        height: 100vh;
+        height: 100%;
 
         h1 {
             position: absolute;

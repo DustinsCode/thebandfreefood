@@ -21,18 +21,18 @@ navbar {
         background-color: transparent;
     }
 
-    a {
+    .navButton {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        color: $cta-color;
+        color: $base-color;
         width: 5.5em;
         height: 5.5em;
-        border: solid $cta-color;
+        border: solid $base-color;
         border-radius: 0.5em;
         margin: 0.8em;
-        background-color: $base-color; 
+        background-color: $accent-color; 
         opacity: .75;
         user-select: none;
         text-decoration: none;

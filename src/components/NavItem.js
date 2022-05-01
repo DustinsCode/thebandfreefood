@@ -4,7 +4,7 @@ import * as styles from '../styles/navbarDesktop.module.scss'
 
 function NavItem(props) {
     return (
-        <a href={props.link} className={styles.navbarDesktop}>
+        <a target={props.target} href={props.link} className={styles.navButton}>
             <div>{props.text}</div>
             <nav className={styles.navbarDesktop}>
                 {props.icon}

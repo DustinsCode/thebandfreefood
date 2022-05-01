@@ -6,8 +6,34 @@ body {
     font-family: "Saira";
 }
 
-navbarDesktop {
+.navbarDesktop {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    color: $cta-color;
+    font-size: small;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    
+    a:link {
+        color: $accent-color;
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    a:visited {
+        color: $link-visited;
+    }
 }

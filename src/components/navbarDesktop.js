@@ -8,6 +8,7 @@ import { FaFrog } from 'react-icons/fa';
 function NavbarDesktop(props) {
 
     const iconSize = 50
+    //TODO: make list that holds objects for nav items, then loop through to render it
 
     return (
         <navbar className={styles.NavbarDesktop}>
@@ -15,7 +16,8 @@ function NavbarDesktop(props) {
                 className={styles.NavbarDesktop}
                 text = {"Home"}
                 icon = {<FaHome size={iconSize}/>}
-                link = {"https://thebandfreefoodmain.gatsbyjs.io/"}
+                link = {"/"}
+                target = "_self"
             />
 
             <NavItem 
@@ -23,6 +25,7 @@ function NavbarDesktop(props) {
                 text={"Tunes"}
                 icon = {<FaHeadphones size={iconSize}/>}
                 link="https://open.spotify.com/artist/19yT2G1cULygYhO2ijQiPi?si=_HP6KXZYRuuVxqjeyA0wKw"
+                target = "_blank"
              />
 
             <NavItem 
@@ -30,6 +33,7 @@ function NavbarDesktop(props) {
                 text={"Frog"}
                 icon = {<FaFrog size={iconSize}/>}
                 link = {"https://en.pimg.jp/048/818/553/1/48818553.jpg"}
+                target = "_blank"
              />
              
         </navbar>
