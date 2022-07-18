@@ -1,16 +1,21 @@
 import { StaticImage } from 'gatsby-plugin-image'
-import React from 'react'
-import NavbarDesktop from '../components/navbarDesktop'
-import LinkButton from '../components/linkButton'
+import React, { useState } from 'react'
 import * as styles from '../styles/landing.module.scss'
+import ListenModal from '../components/listenModal'
 
 const Landing = () => {
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
     return (
-        //TODO: make this look not like garbage on desktop
         <div className={styles.content}>
             <StaticImage className={styles.headerImage} src="../images/FF-Header-fade-1280.png" alt="Band members smiling" />
             <h1>Free Food</h1>
-            <LinkButton text="LISTEN NOW" link="https://open.spotify.com/artist/19yT2G1cULygYhO2ijQiPi?si=_HP6KXZYRuuVxqjeyA0wKw" />
+            
+            <button onClick={() => setIsModalOpen(true)}>
+                LISTEN NOW
+            </button>
+            {isModalOpen && <ListenModal setIsOpen={setIsModalOpen} />}
         </div>
     )
 }

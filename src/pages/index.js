@@ -8,7 +8,6 @@ import NavbarDesktop from '../components/navbarDesktop'
 const IndexPage = () => {
   return (
     <main className="content">
-      <NavbarDesktop className="navbarDesktop"/>
       <title>🎵 Free Food 🎵</title>
       <Landing />
       <Footer />
