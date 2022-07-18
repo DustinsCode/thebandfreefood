@@ -22,7 +22,7 @@ $breakpoint-tablet: 768px;
 @media (min-width: $breakpoint-tablet) {
 
     .headerImage {
-        position: absolute;
+        position: absolute !important;
         top: 0;
         width: 100vw;
         max-height: 100vh;
