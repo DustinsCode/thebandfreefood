@@ -20,7 +20,6 @@ $breakpoint-tablet: 768px;
 }
 
 @media (min-width: $breakpoint-tablet) {
-
     .headerImage {
         position: absolute !important;
         top: 0;
@@ -38,10 +37,10 @@ $breakpoint-tablet: 768px;
         align-items: center;
 
         h1 {
-            font-size: 9em; 
+            font-size: 9em;
             margin: 0;
             border-radius: 0.3em;
-            border-bottom: .07em solid $cta-color;
+            border-bottom: 0.07em solid $cta-color;
             border-bottom-left-radius: 0;
         }
     }

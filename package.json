@@ -1,33 +1,37 @@
 {
-  "name": "free-food-band",
-  "version": "1.0.0",
-  "private": true,
-  "description": "free-food-band",
-  "author": "Dustin Thurston",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "dev": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "@fontsource/permanent-marker": "^4.5.5",
-    "@fontsource/saira": "^4.5.5",
-    "@fontsource/saira-condensed": "^4.5.5",
-    "gatsby": "^4.11.1",
-    "gatsby-plugin-google-analytics": "^4.11.0",
-    "gatsby-plugin-image": "^2.12.1",
-    "gatsby-plugin-sass": "^5.11.1",
-    "gatsby-plugin-sharp": "^4.12.1",
-    "gatsby-source-filesystem": "^4.12.1",
-    "gatsby-transformer-sharp": "^4.12.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-icons": "^4.3.1",
-    "sass": "^1.49.11"
-  }
+    "name": "free-food-band",
+    "version": "1.0.0",
+    "private": true,
+    "description": "free-food-band",
+    "author": "Dustin Thurston",
+    "keywords": [
+        "gatsby"
+    ],
+    "scripts": {
+        "dev": "gatsby develop",
+        "start": "gatsby develop",
+        "build": "gatsby build",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+        "@fontsource/permanent-marker": "^4.5.5",
+        "@fontsource/saira": "^4.5.5",
+        "@fontsource/saira-condensed": "^4.5.5",
+        "gatsby": "^4.11.1",
+        "gatsby-plugin-google-analytics": "^4.11.0",
+        "gatsby-plugin-image": "^2.12.1",
+        "gatsby-plugin-sass": "^5.11.1",
+        "gatsby-plugin-sharp": "^4.12.1",
+        "gatsby-source-filesystem": "^4.12.1",
+        "gatsby-transformer-sharp": "^4.12.1",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-icons": "^4.3.1",
+        "sass": "^1.49.11"
+    },
+    "devDependencies": {
+        "prettier": "2.8.0"
+    }
 }

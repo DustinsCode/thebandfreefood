@@ -7,7 +7,6 @@ function LinkButton(props) {
             <a href={props.link.link} target="_blank">
                 <span>{props.link.text}</span>
             </a>
-            
         </button>
     )
 }

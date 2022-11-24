@@ -7,7 +7,6 @@ navbar {
 }
 
 @media (min-width: $breakpoint-tablet) {
-
     navbar {
         position: fixed;
         top: 0;
@@ -32,8 +31,8 @@ navbar {
         border: solid $base-color;
         border-radius: 0.5em;
         margin: 0.8em;
-        background-color: $accent-color; 
-        opacity: .75;
+        background-color: $accent-color;
+        opacity: 0.75;
         user-select: none;
         text-decoration: none;
 
@@ -47,6 +46,4 @@ navbar {
             align-items: center;
         }
     }
-
-
 }

@@ -3,7 +3,7 @@
 body {
     background-color: $base-color;
     margin: 0;
-    font-family: "Saira";
+    font-family: 'Saira';
 }
 
 .navbarDesktop {
@@ -24,7 +24,7 @@ body {
     width: 100%;
     text-align: center;
     margin-top: auto;
-    
+
     a:link {
         color: $accent-color;
     }
