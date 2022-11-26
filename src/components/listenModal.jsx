@@ -1,8 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import app from 'gatsby-plugin-firebase-v9.0'
+import { getAnalytics, logEvent } from 'firebase/analytics'
+import AudioPlayer from './audioPlayer'
 import * as styles from '../styles/listenModal.module.scss'
 import LinkButton from './linkButton'
 
 function ListenModal({ setIsOpen }) {
+
+    useEffect(() => {
+        if(app) {
+            const analytics = getAnalytics(app)
+            logEvent(analytics,'audio player opened')
+        }
+    }, [app])
+
     const links = [
         {
             text: 'Spotify',
@@ -22,6 +33,13 @@ function ListenModal({ setIsOpen }) {
         }
     ]
 
+    // return(
+    //     <div>
+    //         <h1>Audio</h1>
+    //         <AudioPlayer />
+    //     </div>
+    // )
+
     return (
         <div>
             <div
@@ -39,7 +57,7 @@ function ListenModal({ setIsOpen }) {
                         {' '}
                         {/* content*/}
                         {links.map((link) => (
-                            <LinkButton link={link} />
+                            <LinkButton key={link.text} link={link} />
                         ))}
                     </div>
                 </div>
